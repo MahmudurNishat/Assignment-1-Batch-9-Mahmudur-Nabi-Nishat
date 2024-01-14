@@ -1,0 +1,677 @@
+/* =======================================================================================================
+                                      Google font  link start here
+=========================================================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* =======================================================================================================
+                                        Google font--link end here
+=========================================================================================================*/
+/* =======================================================================================================
+                                        Custom css--start here
+=========================================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* =======================================================================================================
+                                        Custom css--end here
+=========================================================================================================*/
+/* =======================================================================================================
+                                        header_part  css start here
+=========================================================================================================*/
+header {
+  padding: 50px 0 110px;
+  background-color: #fff;
+}
+.banner {
+  background: url("../images/Banner.png");
+  padding: 177px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.bannerText {
+  text-align: center;
+}
+.bannerSubtitle {
+  color: #000000d0;
+  font-size: 32px;
+  font-weight: 400;
+}
+.bannerTitle {
+  color: #000000d0;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  max-width: 632px;
+  margin: 0 auto;
+}
+/* =======================================================================================================
+                                        header_part  css end here
+=========================================================================================================*/
+
+/* =======================================================================================================
+                                        main_part--css start here
+=========================================================================================================*/
+/* ==================================================
+                    catagory _part css start here
+   ================================================== */
+#catagory {
+  padding: 0 0 120px;
+  background: #fff;
+}
+.catagoryMain {
+  text-align: center;
+}
+.catagoryDiscountText {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.catagorysubtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 38px;
+  margin-bottom: 16px;
+}
+.catagoryTitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+/* ================  Hover Animation on Img (start)  ==============*/
+.newYearImg {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.catagoryImg:hover .newYearImg {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* ================  Hover Animation on Img (end)  ==============*/
+
+/* ==================================================
+                    catagory_part css end here
+   ================================================== */
+
+/* ==================================================
+                    Party_part css start here
+   ================================================== */
+#party {
+  padding: 0 0 120px;
+  background-color: #fff;
+}
+.partyMain {
+  padding: 126px 0 142px 126px;
+  background: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  position: relative;
+}
+.imgYear {
+  position: absolute;
+  top: 9%;
+  left: 66%;
+}
+.partyText {
+  max-width: 697px;
+}
+.partyTitle {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.PartyDescription {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 48px;
+}
+/* ============== Button initial and hover  (start ) =========== */
+.partyBtn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  margin-left: 32px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.partyBtn:hover {
+  color: #f4da76;
+  transform: translateY(25%);
+  -webkit-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -o-transform: translateY(25%);
+}
+/* ============== Button initial and hover (end ) =========== */
+
+/* ==================================================
+                    Party_part css end here
+   ================================================== */
+
+/* ==================================================
+                    Join_part css start here
+   ================================================== */
+#join {
+  padding: 0 0 120px;
+  background-color: #fff;
+}
+.joinMain {
+  padding: 100px 0 110px;
+  background-color: #ffe9e9;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  text-align: center;
+}
+.JoinDestination {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.JoinPlace {
+  color: #f00;
+}
+
+/* ============= JoinNow btn initial and hover (start) ============= */
+.joinNow {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  background: #f00;
+  border: 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: 30px;
+  border: 1px solid #f00;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.joinNow:hover {
+  color: #f00;
+  background-color: #fff;
+  border: 1px solid #f00;
+  transform: translateY(25%);
+  -webkit-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -o-transform: translateY(25%);
+}
+/* ============= JoinNow btn initial and hover (end) ============= */
+
+/* ==================================================
+                    Join_part css end here
+   ================================================== */
+/* ==================================================
+                    ComingSoon_part css start here
+   ================================================== */
+#comingSoon {
+  padding: 30px 0 120px;
+  background-color: #fff;
+}
+.ComingSoonMain {
+  display: flex;
+  justify-content: space-between;
+}
+.comingSoonLeftText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 390px;
+}
+.comingSoonLeftText__subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.comingSoonLeftText__title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0 22px;
+}
+.comingSoonLeftText__Description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+/*==== round img initial and hover (start) ===*/
+.RoundImg {
+  padding: 50px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.RoundImg:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* ==== round img initial and hover (end) ====*/
+.comingSoonRightText {
+  max-width: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.comingSoonRightText__title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.comingSoonRightText__description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 16px 0 43px;
+}
+/* ==================================================
+                    ComingSoon_part css end here
+   ================================================== */
+/* ==================================================
+                    Holiday_part css start here
+   ================================================== */
+#holiday {
+  padding: 50px 0 120px;
+  background-color: #fff;
+}
+.holidayMain {
+  position: relative;
+}
+.holidayText {
+  text-align: center;
+  margin-bottom: 94px;
+}
+.holidayText__subTitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holidayText__title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0 28px;
+}
+.holidayText__span {
+  color: #f00;
+}
+.holidayText__Description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  max-width: 891px;
+  margin: 0 auto;
+}
+.holidayImg {
+  display: flex;
+  justify-content: space-between;
+}
+.girlImgs {
+  position: relative;
+}
+.giftBox {
+  width: 64%;
+  position: absolute;
+  top: 14%;
+  z-index: 2;
+  left: -5%;
+}
+.disount {
+  position: absolute;
+  top: 20%;
+  right: 60%;
+}
+.rectangle {
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  right: 1px;
+  width: 100%;
+  height: 20%;
+}
+/* ==================================================
+                    Holiday_part css end here
+   ================================================== */
+/* ==================================================
+                    portfolio_part css start here
+   ================================================== */
+#portfolio {
+  padding: 150px 0px 110px;
+  background-color: rgb(255, 255, 255);
+}
+.portfolioText {
+  text-align: left;
+}
+.portfolioText__subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolioText__title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0 22px;
+}
+.portfolioText__description {
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.portfolioBox {
+  display: flex;
+  margin-top: 48px;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+.bags {
+  width: 95%;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.bags:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+/* ==================================================
+                    portfolio_part css end here
+   ================================================== */
+/* ==================================================
+                    subscribe_part css start here
+   ================================================== */
+#subscribe {
+  padding: 0 0 80px;
+  background-color: #fff;
+}
+.subscribeMain {
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #fff2f2;
+}
+.subscribeTitle {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 40px 0 42px;
+}
+.subscribeDescription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 896px;
+  margin: 0 auto;
+}
+form {
+  margin-top: 48px;
+  margin-right: 172px;
+}
+.inputs {
+  margin: 0 auto;
+}
+input[type="email"] {
+  width: 100%;
+  width: 500px;
+  padding: 25px 0 25px 30px;
+  background-color: #fff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 50px;
+  border: 0;
+  /* border: 1px solid #000; */
+  position: relative;
+}
+input[type="email"]::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+input[type="submit"] {
+  padding: 21px 46px;
+  background-color: #f00;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 50px;
+  border: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: absolute;
+}
+/* ============ subscribe part end here =========*/
+
+/* =======================================================================================================
+                                        main_part--css end here
+=========================================================================================================*/
+
+/* =======================================================================================================
+                                        Footer_part--css start here
+=========================================================================================================*/
+footer {
+  padding: 100px 0 50px;
+  background-color: #070211;
+}
+.footerMainTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.Iconss {
+  margin-right: 16px;
+}
+.footerMainTextRight {
+  margin-right: 50px;
+}
+.footerMainDescription {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 375px;
+  cursor: pointer;
+}
+.footerMainDescriptions {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 375px;
+  cursor: pointer;
+}
+
+.footerLogo {
+  text-align: center;
+}
+
+/* ======= logo initial and hover ===== */
+
+.logoClass {
+  margin-left: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.logoClass:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+/* ===== logo initial and hover ===== */
+
+.footerLogo {
+  border-top: 1px solid #2c2835;
+  border-bottom: 1px solid #2c2835;
+}
+.footerbottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerCopyright {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.foooterUnsubscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* =======================================================================================================
+                                        Footer_part--css end here
+=========================================================================================================*/
